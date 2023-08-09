@@ -44,5 +44,5 @@ pip uninstall playlistdl //windows
 
 ### TODOS
 
-- [ ] Display total of videos in youtube playlist to be downloaded.
+- [ ] Display total number of videos in youtube playlist to be downloaded.
 - [x] Display a counter for each downloaded video to give a sense of progress.
