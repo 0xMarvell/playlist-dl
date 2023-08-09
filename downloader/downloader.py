@@ -14,10 +14,12 @@ def download_playlist(playlist_url, video_resolution):
         if not os.path.exists(output_path):
             os.makedirs(output_path)
 
+        download_count = 0
         for video in playlist.videos:
             try:
                 video.streams.get_by_resolution(video_resolution).download(output_path)
-                print(f"Downloaded: {video.title}")
+                count += 1
+                print(f"Downloaded: {download_count} {video.title}")
             except Exception as e:
                 print(f"Error downloading {video.title}: {e}")
 

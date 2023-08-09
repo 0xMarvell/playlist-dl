@@ -41,3 +41,8 @@ It makes use of the [pytube](https://pytube.io/en/latest/index.html) library.
 sudo pip3 uninstall playlistdl //macOS or linux
 pip uninstall playlistdl //windows
 ```
+
+### TODOS
+
+- [ ] Display total of videos in youtube playlist to be downloaded.
+- [x] Display a counter for each downloaded video to give a sense of progress.
